@@ -12,6 +12,10 @@
     "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
+  "engines": {
+    "npm": "5.6.0",
+    "node": "8.10.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
