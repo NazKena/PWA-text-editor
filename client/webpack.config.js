@@ -8,6 +8,9 @@ const { title } = require('process');
 
 module.exports = () => {
   return {
+    experiments: {
+      topLevelAwait: true
+    },
     mode: 'development',
     entry: {
       main: './src/js/index.js',
