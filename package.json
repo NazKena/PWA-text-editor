@@ -12,7 +12,6 @@
     "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,7 +22,8 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4",
-    "webpack": "^5.75.0"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "engines": {
     "node": "18.x",
